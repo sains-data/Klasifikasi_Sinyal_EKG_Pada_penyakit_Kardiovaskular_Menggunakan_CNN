@@ -13,14 +13,14 @@ Repository ini berisi implementasi deep learning menggunakan transfer learning d
 ## Dataset 
 Pada penelitian ini, dataset yang digunakan adalah Dataset Gambar EKG Pasien Jantung. Dataset gambar EKG ini merupakan koleksi data elektrokardiogram (EKG) dari pasien jantung yang dibuat di bawah naungan Ch. Pervaiz Elahi Institute of Cardiology di Multan, Pakistan, dengan tujuan untuk mendukung penelitian ilmiah dalam deteksi dan diagnosis penyakit kardiovaskular. Dataset ini terdiri dari empat kelas, namun dalam penelitian ini hanya dua kelas yang digunakan, yaitu Normal dan Abnormal, yang masing-masing menggambarkan kondisi EKG pasien tanpa gangguan jantung dan dengan gangguan jantung. Dataset ini disediakan oleh Ch. Pervaiz Elahi Institute of Cardiology dan berkolaborasi dengan University of Management and Technology, serta termasuk dalam kategori Cardiac Care dan ECG Database, yang bertujuan untuk membantu pengembangan metode deteksi otomatis penyakit jantung melalui analisis data EKG.
 
-link sumber dataset : (https://data.mendeley.com/datasets/gwbz3fsgp8/2) \\
-link drive dataset : (https://drive.google.com/drive/folders/1hv4jHamXFy-SgwaCsJwxExLwitc32iBj?usp=drive_link)
+link sumber dataset : (https://data.mendeley.com/datasets/gwbz3fsgp8/2)
 
-## Model yang digunakan
-Pada penelitian ini, digunakan model Convolutional Neural Network (CNN) berbasis arsitektur VGG16 yang telah terlatih sebelumnya dengan bobot dari dataset ImageNet. Model VGG16 dipilih karena kemampuannya dalam mengekstraksi fitur spasial secara mendalam melalui 13 lapisan convolusi dan 3 lapisan fully connected. Untuk menyesuaikan dengan karakteristik sinyal EKG, lapisan fully connected terakhir dihapus (include_top=False) dan digantikan dengan lapisan yang dirancang khusus, meliputi flatten layer, dense layer dengan 128 neuron dan aktivasi ReLU, serta output layer dengan 1 neuron dan aktivasi sigmoid untuk klasifikasi biner. Selain itu, dilakukan fine-tuning dengan membekukan sebagian besar lapisan awal model, sehingga hanya lapisan-lapisan terakhir yang dilatih ulang menggunakan data EKG
-![Gambar Arsitektur VGG16](https://www.researchgate.net/profile/Mengyun-Liu-4/publication/327060416/figure/fig1/AS:660427612622849@1534469621448/Architecture-of-VGG16.png)
+link drive dataset : (https://drive.google.com/drive/folders/1xuZaobn3d-7V8qZ3SMXu2mQ9yJufYkaM?usp=sharing)
 
-## Flowchart
+
+Pada penelitian ini, digunakan model Convolutional Neural Network (CNN) berbasis arsitektur VGG16 yang telah terlatih sebelumnya dengan bobot dari dataset ImageNet. Model VGG16 dipilih karena kemampuannya dalam mengekstraksi fitur spasial secara mendalam melalui 13 lapisan convolusi dan 3 lapisan fully connected. Untuk menyesuaikan dengan karakteristik sinyal EKG, lapisan fully connected terakhir dihapus (include_top=False) dan digantikan dengan lapisan yang dirancang khusus, meliputi flatten layer, dense layer dengan 128 neuron dan aktivasi ReLU, serta output layer dengan 1 neuron dan aktivasi sigmoid untuk klasifikasi biner. Selain itu, dilakukan fine-tuning dengan membekukan sebagian besar lapisan awal model, sehingga hanya lapisan-lapisan terakhir yang dilatih ulang menggunakan data EKG.
+
+![Gambar Arsitektur VGG16](https://learnopencv.com/wp-content/uploads/2023/03/tensorflow-keras-fine-tune-architecture-feature-image-2-768x616.png)
 
 ## Anggota Kelompok
 - Deodry Siahaan (121450151) - [Github] (https://github.com/deodrysiahaan)
