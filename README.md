@@ -17,10 +17,10 @@ link sumber dataset : (https://data.mendeley.com/datasets/gwbz3fsgp8/2)
 
 link drive dataset : (https://drive.google.com/drive/folders/1xuZaobn3d-7V8qZ3SMXu2mQ9yJufYkaM?usp=sharing)
 
-
+## Tujuan Penelitian
 Pada penelitian ini, digunakan model Convolutional Neural Network (CNN) berbasis arsitektur VGG16 yang telah terlatih sebelumnya dengan bobot dari dataset ImageNet. Model VGG16 dipilih karena kemampuannya dalam mengekstraksi fitur spasial secara mendalam melalui 13 lapisan convolusi dan 3 lapisan fully connected. Untuk menyesuaikan dengan karakteristik sinyal EKG, lapisan fully connected terakhir dihapus (include_top=False) dan digantikan dengan lapisan yang dirancang khusus, meliputi flatten layer, dense layer dengan 128 neuron dan aktivasi ReLU, serta output layer dengan 1 neuron dan aktivasi sigmoid untuk klasifikasi biner. Selain itu, dilakukan fine-tuning dengan membekukan sebagian besar lapisan awal model, sehingga hanya lapisan-lapisan terakhir yang dilatih ulang menggunakan data EKG.
 
-![Gambar Arsitektur VGG16](https://learnopencv.com/wp-content/uploads/2023/03/tensorflow-keras-fine-tune-architecture-feature-image-2-768x616.png)
+![Gambar Arsitektur VGG16](https://raw.githubusercontent.com/Masterx-AI/VGG-16_Implemenation/main/VGG16.png)
 
 ## Anggota Kelompok
 - Deodry Siahaan (121450151) - [Github] (https://github.com/deodrysiahaan)
