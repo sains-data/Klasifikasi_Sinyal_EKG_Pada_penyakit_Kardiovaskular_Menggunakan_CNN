@@ -1,4 +1,4 @@
-# Klasifikasi_Sinyal_EKG_Pada_penyakit_Kardiovaskular_Menggunakan_CNN
+# Klasifikasi Sinyal EKG_Pada penyakit Kardiovaskular Menggunakan CNN berbasis arsitektur VGG16
 Repository ini berisi implementasi deep learning menggunakan transfer learning dengan arsitektur VGG16 untuk klasifikasi gambar EKG pasien jantung. Proyek ini memanfaatkan dataset dari Institut Kardiologi Ch. Pervaiz Elahi, Pakistan.
 
 ![Gambar Elektrokardiogram](https://faste.id/wp-content/uploads/2023/01/sinus-heart-rhythm-on-electrocardiogram-1024x683.jpg)
