@@ -21,9 +21,21 @@ Pada penelitian ini, digunakan model Convolutional Neural Network (CNN) berbasis
 
 ![Gambar Arsitektur VGG16](https://raw.githubusercontent.com/Masterx-AI/VGG-16_Implemenation/main/VGG16.png)
 
+## Parameter Model yang digunakan
+![image](https://github.com/user-attachments/assets/71773972-ed33-4e21-8c36-43ca94a29d6d)
+
+
 ## Anggota Kelompok
 - Deodry Siahaan (121450151) - [Github] (https://github.com/deodrysiahaan)
 - Salwa Amelia Salsabila (121450023) - [Github] (https://github.com/Aameliasalsabila)
 - Audrey Ribka D. Manihuruk (121450103) - [Github] (https://github.com/audreyribkaa)
 - Yosia Letare Banurea (121450149) - [Github] (https://github.com/YosiaBanurea)
 - Deyvan Loxeval (121450148) - [Github] (https://github.com/deyvanloxefal)
+
+  ##Kesimpulan
+Berikut adalah kesimpulan dari hasil penelitian ini : 
+- Model 1 memiliki validation accuracy 97%, dengan akurasi confusion matrix sebesar 0.91. Model ini menunjukkan performa yang baik.
+- Model 2 mengalami underfitting dengan validation accuracy hanya 54% dan akurasi confusion matrix sebesar 0.54, kemungkinan disebabkan oleh kompleksitas model yang rendah atau learning rate yang kurang optimal.
+- Model 3 adalah model terbaik dengan validation accuracy 97% dan akurasi confusion matrix tertinggi sebesar 0.95. Model ini menunjukkan keseimbangan performa antara pelatihan dan validasi.
+Secara keseluruhan, model 3 menjadi pilihan terbaik untuk klasifikasi pada penelitian ini karena memiliki akurasi tertinggi, tingkat kesalahan yang rendah, serta performa yang stabil dalam mempelajari dan memprediksi data.
+
