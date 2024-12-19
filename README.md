@@ -8,7 +8,7 @@ Repository ini berisi implementasi deep learning menggunakan transfer learning d
 - Mengevaluasi kinerja model VGG16 dalam mengenali karakteristik unik sinyal EKG, termasuk kemampuannya dalam mengekstraksi fitur spasial melalui lapisan konvolusi.  
 - Menganalisis dampak variasi hyperparameter, seperti tingkat pembelajaran (learning rate), dropout, dan jenis optimizer, terhadap performa model yang mencakup akurasi, nilai loss, dan kemampuan generalisasi.  
 - Mengembangkan tiga model CNN berbasis VGG16 dengan konfigurasi parameter yang berbeda untuk membandingkan hasil kinerjanya.
-- 
+  
 ## Dataset 
 Pada penelitian ini, dataset yang digunakan adalah Dataset Gambar EKG Pasien Jantung. Dataset gambar EKG ini merupakan koleksi data elektrokardiogram (EKG) dari pasien jantung yang dibuat di bawah naungan Ch. Pervaiz Elahi Institute of Cardiology di Multan, Pakistan, dengan tujuan untuk mendukung penelitian ilmiah dalam deteksi dan diagnosis penyakit kardiovaskular. Dataset ini terdiri dari empat kelas, namun dalam penelitian ini hanya dua kelas yang digunakan, yaitu Normal dan Abnormal, yang masing-masing menggambarkan kondisi EKG pasien tanpa gangguan jantung dan dengan gangguan jantung. Dataset ini disediakan oleh Ch. Pervaiz Elahi Institute of Cardiology dan berkolaborasi dengan University of Management and Technology, serta termasuk dalam kategori Cardiac Care dan ECG Database, yang bertujuan untuk membantu pengembangan metode deteksi otomatis penyakit jantung melalui analisis data EKG.
 
