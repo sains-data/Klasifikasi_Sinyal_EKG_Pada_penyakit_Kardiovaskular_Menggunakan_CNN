@@ -29,6 +29,7 @@ Berikut adalah kesimpulan dari hasil penelitian ini :
 - Model 1 memiliki validation accuracy 97%, dengan akurasi confusion matrix sebesar 0.91. Model ini menunjukkan performa yang baik.
 - Model 2 mengalami underfitting dengan validation accuracy hanya 54% dan akurasi confusion matrix sebesar 0.54, kemungkinan disebabkan oleh kompleksitas model yang rendah atau learning rate yang kurang optimal.
 - Model 3 adalah model terbaik dengan validation accuracy 97% dan akurasi confusion matrix tertinggi sebesar 0.95. Model ini menunjukkan keseimbangan performa antara pelatihan dan validasi.
+  
 Secara keseluruhan, model 3 menjadi pilihan terbaik untuk klasifikasi pada penelitian ini karena memiliki akurasi tertinggi, tingkat kesalahan yang rendah, serta performa yang stabil dalam mempelajari dan memprediksi data.
 
 
